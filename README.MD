@@ -8,4 +8,4 @@ Foi desenvolvido uma calculadora usando o teorema de pitagoras, para o programa 
   - Css
   - Javascript
 
-link do site no ar: (Calculadora pitagoras)[https://anapaula062.github.io/calculadora_pitagoras/]
+link do site no ar: [Calculadora pitagoras](https://anapaula062.github.io/calculadora_pitagoras/)
