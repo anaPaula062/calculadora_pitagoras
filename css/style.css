@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Hind+Siliguri&family=Inter+Tight:ital,wght@0,400;0,600;1,200&family=Pacifico&family=Roboto+Slab:wght@300;400&family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+body{
+    background: linear-gradient(40deg, #2a5c77, #2c5064, #4292bf, #6092ac, #89b1c9);
+    background-size: 200% 400%;
+    animation: colons 17s ease infinite;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes colons{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+form{
+    border: 2px solid #fff;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+    margin: 10px;
+}
+
+#resultado{
+    background-color: #fff;
+    width: 207px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 2px 1px 2px #173342;
+}
+
+input{
+    margin-top: 5px;
+    width: 207px;
+    height: 25px;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 2px 1px 2px #173342;
+}
+
+button{
+    border: 0;
+    margin: 0px 100px 30px 100px;
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 1px 1px 1px 1px;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
